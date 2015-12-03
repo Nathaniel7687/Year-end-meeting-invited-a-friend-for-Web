@@ -1,14 +1,10 @@
-<!DOCTYPE html>
 <html>
 <head>
-<meta charset='utf-8'>
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 <meta name="viewport" content="width=640">
 <link rel="stylesheet" href="stylesheets/core.css" media="screen">
 <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-<link rel="stylesheet" href="stylesheets/github-light.css">
 <style type="text/css" media="screen"></style>
-<script type="text/javascript" src="javascripts/modernizr.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
 <script type="text/javascript">
@@ -23,19 +19,24 @@
         $('audio, video').mediaelementplayer();
     });
 	</script>
-<script type="text/javascript" src="javascripts/snowstorm.js"></script>
-<style type="text/css"></style>
-<script>
-snowStorm.autoStart = true;
-snowStorm.flakesMaxActive = 100;    // show more snow on screen at once
-snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
-</script>
 <title>Invitation</title>
 </head>
-<body>
+<body bgcolor="#000000">
+<script src="javascripts/snowfall.min.js"></script>
+<script type="text/javascript">     
+        var collectOnMe = document.querySelectorAll('.collectonme'),
+            buttons = document.getElementsByTagName("input");
+        
+        for(var i = 0; i < collectOnMe.length; i++){
+            collectOnMe[i].style.display = "none";
+        }
+        
+        //default options
+            snowFall.snow(document.body, {round : true, minSize: 5, maxSize:8});
+
+         </script>
 <div class="shell">
-  <section id="main_content">
-  	<img src="images/grace-truth.png" style="width:auto;" />
+  <section id="main_content"> <img src="images/grace-truth.png" style="width:auto;" />
     <audio id="player" src="music/Oh-Holy-Night.mp3" type="audio/mp3" autoplay style="width:auto" controls> </audio>
   </section>
   <footer> <span class="ribbon-outer"> <span class="ribbon-inner">
