@@ -136,8 +136,8 @@ header span.ribbon-inner {
   position: relative;
   display: block;
   background-color: #cd596b;
-  border: 8px solid #7c334f;
-  padding: 6px;
+  border: 0px solid #7c334f;
+  padding: 0px;
   z-index: 1;
 }
 
@@ -234,8 +234,8 @@ footer span.ribbon-inner {
   position: relative;
   display: block;
   background-color: #cd596b;
-  border: 8px solid #7c334f;
-  padding: 6px;
+  border: 1px solid #7c334f;
+  padding: 1px;
   z-index: 1;
 }
 
@@ -257,7 +257,7 @@ footer span.ribbon-inner p {
   font: bold italic 22px/1 Georgia, Times, “Times New Roman”, serif;
   height: auto;
   line-height: 1.1;
-  padding: 20px 0px 10px;
+  padding: 0px 0px 0px;
 }
 
 footer span.ribbon-inner a {
@@ -269,8 +269,8 @@ footer span.ribbon-inner a {
   text-transform: uppercase;
   font-style: normal;
   font-weight: bolder;
-  font-size: 38px;
-  padding-bottom: 10px;
+  font-size: 10px;
+  padding-bottom: 0px;
 }
 
 footer span.ribbon-inner a:hover {
